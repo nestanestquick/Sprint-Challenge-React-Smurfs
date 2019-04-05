@@ -1,3 +1,66 @@
 .App {
   text-align: center;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column
+}
+
+nav {
+  width: fit-content;
+  padding: 5px 5%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+nav a {
+
+  justify-content: space-around;
+  padding: 5px;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 30px auto;
+  align-self: stretch;
+}
+
+.Smurfs {
+  background: lightgray;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+}
+
+.Smurf {
+  background-color: aquamarine;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 128px;
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+input {
+  color: pink;
+}
+
+button {
+  color: black;
+  background-color: violet;
+  border-radius: 32px;
+}
+
+form {
+  margin-bottom: 10px;
 }
